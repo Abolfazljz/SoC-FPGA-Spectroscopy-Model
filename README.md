@@ -25,9 +25,9 @@ The simulation is divided into two primary modules:
    ```bash
    pip install numpy scipy matplotlib
 
-1<<Execute the simulation script:
-   python digital_spectroscopy_dsp.py
-2<<The script will generate a high-resolution, three-panel plot showcasing the raw signal, the zoomed-in pile-up resolution, and the final MCA energy spectrum.
+1.Execute the simulation script:
+   'python digital_spectroscopy_dsp.py'
+2The script will generate a high-resolution, three-panel plot showcasing the raw signal, the zoomed-in pile-up resolution, and the final MCA energy spectrum.
 
 📄 Documentation
 The repository also includes translated documentation and a comprehensive lab report analyzing the FIR filter's performance and the statistical models used in the simulation.
