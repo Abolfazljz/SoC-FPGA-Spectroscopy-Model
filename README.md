@@ -20,14 +20,16 @@ The simulation is divided into two primary modules:
 *   **Multichannel Analyzer (MCA):** Generates a Gaussian energy spectrum histogram from the extracted pulse heights, mimicking real-world laboratory equipment.
 
 ## 💻 How to Run
+
 1. Clone this repository or download the `digital_spectroscopy_dsp.py` file.
 2. Install the required computational dependencies:
    ```bash
    pip install numpy scipy matplotlib
+Execute the simulation script:
 
-1.Execute the simulation script:
-   'python digital_spectroscopy_dsp.py'
-2The script will generate a high-resolution, three-panel plot showcasing the raw signal, the zoomed-in pile-up resolution, and the final MCA energy spectrum.
+Bash
+python digital_spectroscopy_dsp.py
+The script will generate a high-resolution, three-panel plot showcasing the raw signal, the zoomed-in pile-up resolution, and the final MCA energy spectrum.
 
 📄 Documentation
 The repository also includes translated documentation and a comprehensive lab report analyzing the FIR filter's performance and the statistical models used in the simulation.
